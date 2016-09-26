@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Authentication</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_cardid">Card ID</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_pin">PIN</string>
+    <string name="hint_adpassword">Active Directory Password</string>
+    <!--<string name="hint_usertype">User Type(E.g. Admin,Doctor,Nurse)</string>-->
+    <string name="hint_name">Username</string>
+    <string name="btn_login">If you have card please click here to Authenticate with Card.</string>
+    <string name="btn_login_pin_cardid">Authenticate</string>
+    <string name="btn_register">Enroll Me</string>
+    <string name="btn_link_to_register">Not enrolled yet? Enroll now.</string>
+     <string name="btn_link_to_main_login">Go back to Login Page with User Name and Password.</string>
+    <string name="btn_auth_with_username_password">If you want to authenticate with User Name and Password ,Please enter below field.Then click the Authenticate button.</string>
+    <string name="btn_auth_with_cardid_pin">Please enter PIN in below field and keep the Card near the Reader.Then click the Authenticate button.</string>
+    <string name="btn_link_to_login">Already registred! Log me in.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="option_select">Select a User Type</string>
+    <string name="action_settings">Settings</string>
+    <string name="alert_dialog_title">User Apps</string> 
+    <string name="ok_btn">OK</string>
+    <string name="cancel_btn">Cancel</string>
+    <string name="settings_pwd_equal">Password matched.</string>
+    <string name="settings_pwd_not_equal">Password does not matched! Please re-enter.</string>
+     
+     <string-array name="userapps">
+        <item>C</item>
+        <item>C++</item>
+        <item>Java</item>
+        <item>Scala</item>
+        <item>Groovy</item>
+        <item>Python</item>
+    </string-array>
+    
+
+</resources>

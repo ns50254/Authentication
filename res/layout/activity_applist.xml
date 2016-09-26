@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/bg_applist" >
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:listSelector="@drawable/list_selector">
+    </ListView>
+    
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:orientation="horizontal" >
+
+       <Button
+           android:id="@+id/ButtonA"
+           android:layout_width="118dp"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="100dp"
+           android:layout_marginRight="100dp"
+           android:layout_weight="0.45"
+           android:background="@color/bg_applist"
+           android:padding="20dp"
+           android:text="Complete"
+           android:textColor="#651159"
+           android:textSize="22sp"
+           style="?android:attr/borderlessButtonStyle" />
+
+   </LinearLayout>
+    
+</RelativeLayout> 
